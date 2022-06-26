@@ -25,6 +25,7 @@ Please consider specifying the language of your content by adding a
 to the `lang` attribute in the `<html>` as in this example:
 
 ```html
+
 <html class="no-js" lang="en">
 ```
 
@@ -46,6 +47,7 @@ situations this description is used as a part of the snippet shown in the search
 results.
 
 ```html
+
 <meta name="description" content="This is a description">
 ```
 
@@ -64,6 +66,7 @@ HTML5 Boilerplate comes with a simple setup that strikes a good balance for
 general use cases.
 
 ```html
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
@@ -116,6 +119,7 @@ control over the UI of a saved site or web app on a mobile device.
 It's linked to from the HTML as follows:
 
 ```html
+
 <link rel="manifest" href="site.webmanifest">
 ```
 
@@ -165,10 +169,11 @@ using a polyfill CDN service, like [polyfill.io](https://polyfill.io/v3/), just 
 it before the other scripts in the bottom of the page:
 
 ```html
-    <script src="js/vendor/modernizr-3.10.0.min.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+
+<script src="js/vendor/modernizr-3.10.0.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 </body>
 ```
 
@@ -228,14 +233,16 @@ identifiable information.)
 
 The beacon transport mechanism is used to send all hits [which saves HTTP
 requests and improves
-performance](https://philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build/#loading-analytics.js).
+performance](https://philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build/#loading-analytics.js)
+.
 
 Google recommends that this script be placed at the top of the page. Factors to
 consider: if you place this script at the top of the page, you’ll be able to
 count users who don’t fully load the page, and you’ll incur the max number of
 simultaneous connections of the browser.
 
-Please be aware that while Google [states that it is fully GDPR compliant](https://privacy.google.com/businesses/compliance/),
+Please be aware that while
+Google [states that it is fully GDPR compliant](https://privacy.google.com/businesses/compliance/),
 it is still possible to use analytics to violate GDPR.
 
 Further information:
