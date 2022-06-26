@@ -57,8 +57,8 @@ is increased on a mobile platform where DNS latency can be greater.
 
 ### Explicit prefetches
 
-Typically the browser only scans the HTML for foreign domains. If you have
-resources that are outside of your HTML (a javascript request to a remote server
+Typically, the browser only scans the HTML for foreign domains. If you have
+resources that are outside your HTML (a javascript request to a remote server
 or a CDN that hosts content that may not be present on every page of your site,
 for example) then you can queue up a domain name to be prefetched.
 
@@ -226,7 +226,7 @@ mouse over your Pinned Site's icon.
 ### Set a default page for your Pinned Site
 
 If the site should go to a specific URL when it is pinned (such as the
-homepage), enter it here. One idea is to send it to a special URL so you can
+homepage), enter it here. One idea is to send it to a special URL, so you can
 track the number of pinned users, like so:
 `https://www.example.com/index.html?pinned=true`
 
@@ -275,7 +275,7 @@ Windows 8 adds the ability for you to provide a PNG tile image and specify the
 tile's background color. [Full details on the IE
 blog](https://docs.microsoft.com/en-us/archive/blogs/ie/high-quality-visuals-for-pinned-sites-in-windows-8).
 
-* Create a 144x144 image of your site icon, filling all of the canvas, and using
+* Create a 144x144 image of your site icon, filling all the canvas, and using
   a transparent background.
 * Save this image as a 32-bit PNG and optimize it without reducing colour-depth.
   It can be named whatever you want (e.g. `metro-tile.png`).
@@ -442,7 +442,7 @@ Facebook).
 ### Twitter Cards
 
 Twitter provides a snippet specification that serves a similar purpose to Open
-Graph. In fact, Twitter will use Open Graph when Cards is not available. You can
+Graph. In fact, Twitter will use Open Graph when Cards are not available. You can
 read more about the various snippet formats in the
 [official Twitter Cards
 documentation](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards),
@@ -505,8 +505,7 @@ the cleaner, more accurate `https://www.example.com/cart.html`.
 ### Separate mobile URLs
 
 If you use separate URLs for desktop and mobile users, you should consider
-helping search engine algorithms better understand the configuration on your web
-site.
+helping search engine algorithms better understand the configuration on your website.
 
 This can be done by adding the following annotations in your HTML pages:
 
